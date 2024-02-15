@@ -2,7 +2,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class practica1 {
+public class ut6_01_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String line;
@@ -14,17 +14,16 @@ public class practica1 {
                 break;
             }
 
-            // a) Mostrar la línea en minúsculas
+
             System.out.println("a) Línea en minúsculas: " + line.toLowerCase());
 
-            // b) Mostrar la línea con caracteres en orden inverso
+
             System.out.print("b) Línea con caracteres en orden inverso: ");
             for (int i = line.length() - 1; i >= 0; i--) {
                 System.out.print(line.charAt(i));
             }
             System.out.println();
 
-            // c) Convertir los caracteres en posición impar a mayúsculas y en posición par a minúsculas
             StringBuilder modifiedLine = new StringBuilder();
             for (int i = 0; i < line.length(); i++) {
                 char currentChar = line.charAt(i);
@@ -36,11 +35,9 @@ public class practica1 {
             }
             System.out.println("c) Línea con caracteres en posición impar mayúsculas y en posición par minúsculas: " + modifiedLine.toString());
 
-            // d) Reemplazar las letras 'A' por '@'
             String replacedLine = line.replaceAll("[Aa]", "@");
             System.out.println("d) Línea con las letras 'A' reemplazadas por '@': " + replacedLine);
 
-            // e) Contar el número de veces que aparece cada vocal
             int[] vowelCounts = new int[5]; // a, e, i, o, u
             for (int i = 0; i < line.length(); i++) {
                 char currentChar = Character.toLowerCase(line.charAt(i));
