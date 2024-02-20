@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa52dbd2-196c-4fb7-afca-f6e30da658f2" name="Changes" comment="Tema5">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Ejemplo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/ut5_03_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/ut6_03_01_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/ut6_01_01b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/ut6_01_01c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/ut6_01_01d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fechahora/FechaHoraMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_list/ut6_03_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_list/ut6_03_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparacion/ComparacionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparacion/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicios_string_buffer/ut6_01_02b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mapas/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mapas/PrincipalDiccionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios/practica1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/ut6_01_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios/practica2main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/ut6_03_01_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/ut6_03_01_Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mapas" />
+      <recent name="comparacion" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +71,9 @@
       <workItem from="1707809410728" duration="6795000" />
       <workItem from="1707898609481" duration="6600000" />
       <workItem from="1707981782125" duration="6953000" />
-      <workItem from="1707997922327" duration="1467000" />
+      <workItem from="1707997922327" duration="1760000" />
+      <workItem from="1708084486340" duration="4997000" />
+      <workItem from="1708413918975" duration="7857000" />
     </task>
     <task id="LOCAL-00001" summary="Tema5">
       <option name="closed" value="true" />
@@ -84,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707816257795</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tema5">
+      <option name="closed" value="true" />
+      <created>1707999459423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707999459423</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
