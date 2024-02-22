@@ -1,7 +1,6 @@
 package comparacion;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class ComparacionMain {
 
@@ -14,12 +13,31 @@ public class ComparacionMain {
 
         List<Persona> lista = new ArrayList<>();
 
-        System.out.println(p1.compareTo(p2));
+        lista.add(p1);
+        lista.add(p2);
+        lista.add(p3);
+        lista.add(p4);
+
+        Collections.sort(lista);
+
+        Collections.sort(lista, new CompararTelefonoPersona());
+
+        Collections.sort(lista, new Comparator<Persona>() {
+                    @Override
+                    public int compare(Persona o1, Persona o2) {
+                        return 0;
+                    }});
+
+                System.out.println(p1.compareTo(p2));
         System.out.println(p1.compareTo(p3));
         System.out.println(p1.compareTo(p4));
         System.out.println(p2.compareTo(p1));
 
-        p1.equals(p2);
+        System.out.println("+-------------------------------------------------+");
+
+        for (Persona p : lista){
+            System.out.println(p);
+        }
 
 
 

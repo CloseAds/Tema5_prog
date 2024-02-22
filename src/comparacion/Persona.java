@@ -50,16 +50,25 @@ public class Persona implements Comparable<Persona> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Persona persona = (Persona) o;
-        return Objects.equals(dni, persona.dni);
+        return Objects.equals(apellidos, persona.apellidos);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(dni);
+        return Objects.hash(apellidos);
     }
 
     @Override
     public int compareTo(Persona o) {
-        return this.dni.compareTo(o.getDni());
+        int resultado = this.apellidos.compareTo(o.getApellidos());
+        if (resultado == 0){
+             resultado = this.nombre.compareTo(o.getNombre());
+             if (resultado == 0){
+                 return resultado;
+             }
+        }
+        return resultado;
     }
+
+
 }
